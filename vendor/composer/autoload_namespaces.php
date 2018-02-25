@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Test' => array($baseDir . '/lib'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
 );
